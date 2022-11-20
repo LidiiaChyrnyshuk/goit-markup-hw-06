@@ -588,7 +588,7 @@ body {
   margin-left: 70px;
 }
 .footer-form {
-  margin-left: 93px;
+  margin-left: auto;
 }
 .footer-form-text {
   display: block;
@@ -611,7 +611,8 @@ body {
   display: block;
   width: 358px;
   height: 50px;
-
+  padding-left: 16px;
+  color: #ffffff;
   background-color: #2f303a;
 
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -832,6 +833,7 @@ body {
   transform: translate(-50%, -50%) scale(0.4);
 }
 .modal {
+  padding: 40px;
   min-width: 528px;
   min-height: 581px;
   background-color: var(--text-white-color);
@@ -855,7 +857,7 @@ body {
   width: 30px;
   height: 30px;
   background: transparent;
- 
+
   border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.1);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -890,6 +892,8 @@ body {
   height:581px;
 } */
 .modal-text {
+  margin: 0;
+  margin-bottom: 5px;
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
@@ -902,9 +906,9 @@ body {
   position: relative;
   width: 448px;
   height: 58px;
-  margin-right: 32px;
+
   margin-bottom: 10px;
-  margin-left: 48px;
+
   display: block;
 
   transition-property: border, fill, outline;
@@ -950,14 +954,14 @@ body {
   left: 12px;
   fill: var(--title-black-color);
 
-  transform: translateY(50%);
+  transform: translateY(30%);
 
   display: inline-block;
 }
 .modal-form-group-comment {
-  margin-right: 32px;
+  width: 448px;
   margin-bottom: 20px;
-  margin-left: 48px;
+
   display: block;
 
   transition-property: border, outline;
@@ -977,6 +981,8 @@ body {
   padding-right: 16px;
   padding-bottom: 12px;
   padding-left: 16px;
+
+  display: block;
 
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
@@ -1019,10 +1025,10 @@ body {
   width: 16px;
   height: 15px;
 
-  border: 3px solid var(--title-black-color);
-  border-radius: 4px;
+  border: 2px solid var(--title-black-color);
+  border-radius: 2px;
 
-  transition-property:fill, border-color, background-color, baackground-image,
+  transition-property: fill, border-color, background-color, baackground-image,
     background-size, background-origin;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -1060,9 +1066,8 @@ body {
   color: var(--accent-color);
 }
 .modal-form-btn {
-  margin-right: 164px;
-  margin-bottom: 40px;
-  margin-left: 164px;
+  margin-right: auto;
+  margin-left: auto;
   width: 200px;
   height: 50px;
 
